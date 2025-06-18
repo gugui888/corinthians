@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.poetsen-one-regular {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+    --cor-principal: #c303fd;
+    --cor-segundaria: #d87eff;
+    --cor-destaque: #330136;
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+h1, h2, h5 {
+    font-family: "Poetsen One", sans-serif;
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+footer a {
+    color: var(--cor-principal)
+}
+
+footer a:hover {
+    color: var(--cor-destaque)
+}
